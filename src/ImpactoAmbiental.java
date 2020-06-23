@@ -8,7 +8,6 @@ public class ImpactoAmbiental {
 
 	private double impactoTotal;
 
-	private Cadeira cadeira;
 
 	public double calculaMediaCarbono(double nivelCo2, double nivelCo) {
 		return 0;
