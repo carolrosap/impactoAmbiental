@@ -8,7 +8,6 @@ public class Produto extends ImpactoAmbiental{
 
 	private int ano;
 
-	private Cadeira cadeira;
 
 
 }
