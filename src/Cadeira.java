@@ -4,4 +4,6 @@ public class Cadeira extends Produto{
 
 	private boolean temApoioLateral;
 
+	private Produto produto;
+
 }

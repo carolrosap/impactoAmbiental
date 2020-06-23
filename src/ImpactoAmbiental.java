@@ -1,19 +1,25 @@
-public interface ImpactoAmbiental {
+public class ImpactoAmbiental {
 
-	public static final double carbonoPorUnidade = 0;
+	private double carbonoPorUnidade;
 
-	public static final double aguaUtilizadaPorUnidade = 0;
+	private double aguaUtilizadaPorUnidade;
 
-	public static final double areaDesmatadaPorUnidade = 0;
+	private double areaDesmatadaPorUnidade;
 
+	private double impactoTotal;
 
-	double calculaMediaCarbono(double nivelCo2, double nivelCo);
+	private Cadeira cadeira;
 
-	double calculaMediaAgua(double quantidadeTotal, double unidades);
-	
-	
-	
+	public double calculaMediaCarbono(double nivelCo2, double nivelCo) {
+		return 0;
+	}
 
-	
+	public double calculaMediaAgua(double quantidadeTotal, double unidades) {
+		return 0;
+	}
+
+	public double calculaAreaDesmatada(double quantidadeMadeira, Enum tipo) {
+		return 0;
+	}
 
 }

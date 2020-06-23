@@ -1,4 +1,4 @@
-public class Produto {
+public class Produto extends ImpactoAmbiental{
 
 	private String marca;
 
@@ -7,6 +7,8 @@ public class Produto {
 	private String localDeProducao;
 
 	private int ano;
+
+	private Cadeira cadeira;
 
 
 }
