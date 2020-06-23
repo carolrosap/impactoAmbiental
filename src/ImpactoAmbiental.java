@@ -1,5 +1,6 @@
-public class ImpactoAmbiental {
+public class ImpactoAmbiental implements ImpactoCO2 {
 
+	
 	private double carbonoPorUnidade;
 
 	private double aguaUtilizadaPorUnidade;
@@ -17,7 +18,13 @@ public class ImpactoAmbiental {
 		return 0;
 	}
 
-	public double calculaAreaDesmatada(double quantidadeMadeira, Enum tipo) {
+	public double calculaAreaDesmatada(double quantidadeMadeira, String tipo) {
+		return 0;
+	}
+
+	@Override
+	public double calculaImpacto(Produto produto) {
+		// TODO Auto-generated method stub
 		return 0;
 	}
 
